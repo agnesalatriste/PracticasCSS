@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#vaccination{
+    color: #3554ce;
+}
+h1, h2, h3, h4, summary{
+    color: #1f3e72;
+}
+a, p{
+    color: #748198;
+    text-decoration-line: none;
+    font-size: 16px;
+}
+
+.section{
+    margin: 0%;
+    display:inline-block
+}
+
+.button{
+    background-color: #eef3ff;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: #3554ce;
+    font-size: 16px;
+}
+
+.button:hover{
+    background-color: #3554ce;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color:#ffff;
+    font-size: 16px;
+}
+
+.button1{
+    background-color: #3554ce;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    color:#ffff;
+    font-size: 16px;
+}
+
+.button1:hover{
+
+
+}
+
+.box{
+    background-color: #ffff;
+    padding: 12px 22px;
+    border:2px solid #f6f9fc;
+    border-radius: 5px;
+    text-align: center;
+    color: #748198;
+    font-size: 16px;
+}
+
+.box:hover{
+    box-shadow: 0px 5px 15px 0px rgba(78, 50, 231, 0.13);
+    border: none;
+}
+
+.footer{
+    background: #eef3ff;
+}
+
+.header{
+    display: block;
+    width: auto;
+    background:  #eef3ff;
+    background-color: #e6f5fc;
+    font-weight: 500;
+    margin: 0%;
+    height: 88px;
+    vertical-align: middle;
+}
+
+.header div{
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+.nav{
+    float: right;
+    vertical-align: middle;
+}
+
+.text{
+    display: inline-block;
+    text-align: justify;
+    margin: 50px 40px 50px;
+}
+.nurse{
+    display: inline-block;
+    float:right;
+    width: 50%;
+    margin: 0%;
+}
+.info{
+    color: #ffff !important; 
+    display: inline-block;
+}
+
+p.info{
+    display: inline-block;
+}
+
+.vaccineType{
+    background-color: #ffff;
+    padding: 12px 22px;
+    border:2px solid #f6f9fc;
+    border-radius: 5px;
+    text-align: center;
+    color: #748198;
+    font-size: 16px;
+    width: 60%;
+    display: inline-block;
+    float:left;
+}
+
+.box:hover{
+    box-shadow: 0px 5px 15px 0px rgba(78, 50, 231, 0.13);
+    border: none;
+}
+
+#icon{
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0%;
+}
+#icon:hover{
+    border: 2px solid #ffff;
+    box-shadow: 0px 5px 15px 0px rgba(113, 75, 250, 0.171);
+}
+
+.schedule{
+    margin: 100px 40px 0px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: bold;
+}
